@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>English Learners @ Metea Valley HS (SY2026) • Mrs. Vickie Ream</title>
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["ui-sans-serif", "system-ui", "Segoe UI", "Inter", "Arial", "sans-serif"],
+          },
+          boxShadow: {
+            soft: "0 10px 25px -15px rgba(0,0,0,.25)",
+          },
+        },
+      },
+    };
+  </script>
+
+  <meta name="description" content="Welcome page for Metea Valley High School English Learners & families — Mrs. Vickie Ream (SY2026)." />
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-stone-50 via-slate-50 to-stone-100 text-slate-800 font-sans">
+  <!-- Subtle background texture -->
+  <div class="pointer-events-none fixed inset-0 opacity-60">
+    <div class="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-amber-200 blur-3xl"></div>
+    <div class="absolute top-40 -right-24 h-72 w-72 rounded-full bg-teal-200 blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-sky-200 blur-3xl"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="relative z-10">
+    <div class="mx-auto max-w-6xl px-4 pt-8 pb-6">
+      <div class="flex flex-col gap-4 rounded-3xl border border-white/60 bg-white/70 p-6 shadow-soft backdrop-blur">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div class="space-y-2">
+            <div class="inline-flex items-center gap-2 rounded-full bg-slate-900/5 px-3 py-1 text-sm">
+              <span aria-hidden="true">🌎</span>
+              <span class="font-medium">Metea Valley High School • SY2026</span>
+            </div>
+            <h1 class="text-2xl md:text-4xl font-semibold tracking-tight">
+              English Learners Welcome Hub
+              <span class="block text-base md:text-lg font-normal text-slate-600 mt-1">
+                Multilingual Department • Mrs. Vickie Ream’s Classes
+              </span>
+            </h1>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-2">
+            <a href="#tools" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white shadow-soft hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-slate-400">
+              <span aria-hidden="true">🧰</span> Student Tools
+            </a>
+            <a href="#family" class="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-800 shadow-soft hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-300">
+              <span aria-hidden="true">💬</span> Family Hub
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick-nav chips -->
+        <nav class="flex flex-wrap gap-2 pt-2">
+          <a href="#welcome" class="chip">👋 Welcome</a>
+          <a href="#academic" class="chip">📚 Academic Corner</a>
+          <a href="#courses" class="chip">🧾 Course Descriptions</a>
+          <a href="#schedule" class="chip">⏰ Bell Schedule</a>
+          <a href="#tools" class="chip">🔗 Student Tools & Links</a>
+          <a href="#family" class="chip">🏠 Family Communication Hub</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+    <div class="mx-auto max-w-6xl px-4 pb-16 space-y-6">
+
+      <!-- WELCOME -->
+      <section id="welcome" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">👋</div>
+          <div>
+            <h2 class="section-title">Welcome</h2>
+            <p class="section-subtitle">A quick hello + how to reach me.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div class="lg:col-span-2 rounded-2xl border border-slate-200 bg-white p-5">
+            <p class="text-slate-700 leading-relaxed">
+              Welcome to Metea Valley High School. This year, I will be your student’s English Teacher. For 32 years, education has been my passion!
+              I have had the privilege of working as a classroom teacher, an assistant principal, and an assistant director; however, the majority of my time has been devoted to the multilingual world.
+            </p>
+
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="badge">✨ Supportive</span>
+              <span class="badge">🗣️ Language Growth</span>
+              <span class="badge">📖 Reading + Writing</span>
+              <span class="badge">🤝 Community</span>
+            </div>
+
+            <div class="mt-5 rounded-2xl bg-slate-50 p-4 border border-slate-200">
+              <p class="text-sm text-slate-600">
+                Tip for families: If you ever feel unsure, please reach out. We’ll figure it out together.
+              </p>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">📬</span> Contact
+            </h3>
+
+            <div class="mt-3 space-y-3 text-sm">
+              <div class="rounded-xl bg-slate-50 p-3 border border-slate-200">
+                <p class="font-semibold">Mrs. Vickie Ream</p>
+                <p class="text-slate-600">EL Specialist / Bilingual Teacher</p>
+              </div>
+
+              <div class="rounded-xl bg-white p-3 border border-slate-200">
+                <p class="text-slate-600">Email</p>
+                <button
+                  type="button"
+                  class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-900 px-3 py-2 text-white font-semibold hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-slate-400"
+                  onclick="copyToClipboard('vickie_ream@ipsd.org')"
+                  aria-label="Copy email address"
+                >
+                  📧 vickie_ream@ipsd.org <span class="ml-2 text-white/80">(click to copy)</span>
+                </button>
+              </div>
+
+              <div class="rounded-xl bg-white p-3 border border-slate-200">
+                <p class="text-slate-600">Office Hours</p>
+                <p class="font-medium mt-1">6:45 a.m.–7:15 a.m.</p>
+                <p class="font-medium">11:15 a.m.–12:30 p.m.</p>
+                <p class="text-slate-600 mt-1">or by appointment</p>
+              </div>
+
+              <div id="toast" class="hidden rounded-xl bg-emerald-50 p-3 border border-emerald-200 text-emerald-900 text-sm">
+                ✅ Copied to clipboard!
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACADEMIC CORNER -->
+      <section id="academic" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">📚</div>
+          <div>
+            <h2 class="section-title">Academic Corner</h2>
+            <p class="section-subtitle">WIDA levels + what “ELD” means + how we grow.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">🧭</span> WIDA Levels
+            </h3>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">
+              WIDA levels describe a student’s current English language development. Students may have different levels in
+              <span class="font-medium">Listening, Speaking, Reading,</span> and <span class="font-medium">Writing</span>.
+              Our goal is steady growth in all four areas—using supportive scaffolds and meaningful practice.
+            </p>
+
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+              <div class="rounded-xl bg-slate-50 p-3 border border-slate-200">
+                <p class="font-semibold">What families can expect</p>
+                <ul class="mt-2 list-disc pl-5 text-slate-700 space-y-1">
+                  <li>Clear routines & visuals</li>
+                  <li>Speaking practice every week</li>
+                  <li>Vocabulary for school success</li>
+                  <li>Support to read & write stronger</li>
+                </ul>
+              </div>
+              <div class="rounded-xl bg-slate-50 p-3 border border-slate-200">
+                <p class="font-semibold">WIDA website</p>
+                <p class="mt-2 text-slate-700">
+                  <a class="link" href="https://wida.wisc.edu/" target="_blank" rel="noopener noreferrer">
+                    🌐 wida.wisc.edu
+                  </a>
+                </p>
+                <p class="mt-2 text-slate-600 text-xs">
+                  (Official WIDA resources, standards, and family information.)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">🧩</span> ELD vs. General Education English
+            </h3>
+            <div class="mt-3 space-y-3 text-sm text-slate-700 leading-relaxed">
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">ELD (English Language Development)</p>
+                <p class="mt-1">
+                  Focuses on learning English skills (speaking, listening, reading, writing) so students can succeed in all classes.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">General Education English (ELA)</p>
+                <p class="mt-1">
+                  Focuses on grade-level literature, writing, analysis, and standards—often with faster pacing and more complex language.
+                </p>
+              </div>
+              <div class="rounded-xl border border-slate-200 bg-white p-4">
+                <p class="font-semibold">In our EL English classes, we blend both:</p>
+                <ul class="mt-2 list-disc pl-5 space-y-1">
+                  <li>Grade-appropriate skills with supports</li>
+                  <li>Academic vocabulary + sentence frames</li>
+                  <li>Reading strategies + writing structure</li>
+                  <li>Oral practice to build confidence</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSE DESCRIPTIONS -->
+      <section id="courses" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">🧾</div>
+          <div>
+            <h2 class="section-title">Course Descriptions</h2>
+            <p class="section-subtitle">What students do in each class.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <article class="course-card">
+            <h3 class="course-title">Intensive ELL English 2</h3>
+            <p class="course-desc">
+              This course builds upon a foundational knowledge of English to improve students' ability to communicate for social and academic purposes.
+              Students will enhance their vocabulary, master basic and progressive grammar tenses, and develop the skills to read and interpret simple texts,
+              instructions, and forms. The curriculum emphasizes a supportive learning environment with a heavy focus on oral proficiency and text-level skills.
+              Key activities include structured group discussions, short presentations, guided paragraph writing, and reading level-appropriate, high-interest literature
+              such as short stories, myths, and non-fiction. The ultimate goal is to equip students with the necessary communication skills to transition into higher-level
+              ELA courses and succeed in the broader school environment.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="pill">🗣️ Speaking</span>
+              <span class="pill">✍️ Paragraphs</span>
+              <span class="pill">📘 Vocabulary</span>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <h3 class="course-title">ELL English 1</h3>
+            <p class="course-desc">
+              This course is designed for English Language Learners who are in the expanding phase of language acquisition and are able to communicate in English but
+              need to acquire the technical academic language required for grade-level content. Students in this course will focus on developing critical reading,
+              writing, listening, and speaking skills within various academic and social contexts, using both high-interest modified and abridged authentic resources.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="pill">📖 Reading</span>
+              <span class="pill">🧠 Thinking</span>
+              <span class="pill">🧾 Academic Language</span>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <h3 class="course-title">ELL Resource</h3>
+            <p class="course-desc">
+              This performance-based course is a support class designed to foster English language acquisition and provide targeted academic assistance to high school
+              English Language Learners (ELLs) at various proficiency levels. Instruction is tailored to students' individual language needs, as determined by language
+              proficiency assessments (e.g., WIDA ELD Standards). The curriculum focuses on developing the critical listening, speaking, reading, and writing skills
+              essential for daily communication and academic success.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="pill">🧩 Support</span>
+              <span class="pill">📆 Organization</span>
+              <span class="pill">🎯 Skill Building</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- BELL SCHEDULE -->
+      <section id="schedule" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">⏰</div>
+          <div>
+            <h2 class="section-title">MVHS Bell Schedule</h2>
+            <p class="section-subtitle">Regular schedule + Wednesday (Mustang 30).</p>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-5">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div class="text-sm text-slate-700">
+              <span class="font-semibold">Tip:</span> Click a tab to view the schedule.
+            </div>
+            <div class="inline-flex rounded-2xl border border-slate-200 bg-slate-50 p-1">
+              <button class="tab-btn" data-tab="regular" type="button">🗓️ Regular</button>
+              <button class="tab-btn" data-tab="wednesday" type="button">🐎 Wednesday (Mustang 30)</button>
+            </div>
+          </div>
+
+          <div class="mt-4" id="tab-regular">
+            <h3 class="text-base font-semibold mb-3">Regular Bell Schedule</h3>
+            <div class="overflow-x-auto rounded-2xl border border-slate-200">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-50 text-slate-700">
+                  <tr>
+                    <th class="px-4 py-3 text-left font-semibold">Period</th>
+                    <th class="px-4 py-3 text-left font-semibold">Time</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200">
+                  <tr><td class="px-4 py-3 font-medium">Period 1</td><td class="px-4 py-3">07:25–08:12</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 2</td><td class="px-4 py-3">08:17–09:09</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 3</td><td class="px-4 py-3">09:14–10:01</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 4</td><td class="px-4 py-3">10:06–10:53</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 5</td><td class="px-4 py-3">10:59–11:46</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 6</td><td class="px-4 py-3">11:52–12:39</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 7</td><td class="px-4 py-3">12:45–01:32</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 8</td><td class="px-4 py-3">01:38–02:25</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="mt-4 hidden" id="tab-wednesday">
+            <h3 class="text-base font-semibold mb-3">Wednesday (Mustang 30) Bell Schedule</h3>
+            <div class="overflow-x-auto rounded-2xl border border-slate-200">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-50 text-slate-700">
+                  <tr>
+                    <th class="px-4 py-3 text-left font-semibold">Block</th>
+                    <th class="px-4 py-3 text-left font-semibold">Time</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200">
+                  <tr><td class="px-4 py-3 font-medium">Period 1</td><td class="px-4 py-3">07:25–08:07</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 2</td><td class="px-4 py-3">08:12–08:54</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Mustang 30</td><td class="px-4 py-3">08:59–09:29</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 3</td><td class="px-4 py-3">09:34–10:15</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 4</td><td class="px-4 py-3">10:20–11:01</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 5</td><td class="px-4 py-3">11:06–11:47</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 6</td><td class="px-4 py-3">11:52–12:33</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 7</td><td class="px-4 py-3">12:38–01:19</td></tr>
+                  <tr><td class="px-4 py-3 font-medium">Period 8</td><td class="px-4 py-3">01:24–02:05</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p class="mt-4 text-xs text-slate-500">
+            Note: Times shown are provided for quick reference. Always follow official school updates if a special schedule is announced.
+          </p>
+        </div>
+      </section>
+
+      <!-- STUDENT TOOLS & LINKS -->
+      <section id="tools" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">🔗</div>
+          <div>
+            <h2 class="section-title">Student Tools & Links</h2>
+            <p class="section-subtitle">Practice, write, translate, and learn—anytime.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <!-- Translators -->
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">🈯</span> Translators
+            </h3>
+            <ul class="mt-3 space-y-2 text-sm">
+              <li>
+                <a class="link" href="https://www.deepl.com/" target="_blank" rel="noopener noreferrer">🧠 DeepL (deepl.com)</a>
+                <p class="text-xs text-slate-600 mt-1">Great for natural-sounding translations.</p>
+              </li>
+              <li>
+                <a class="link" href="https://translate.google.com/" target="_blank" rel="noopener noreferrer">🌐 Google Translate (translate.google.com)</a>
+                <p class="text-xs text-slate-600 mt-1">Fast translation + camera translation on phones.</p>
+              </li>
+            </ul>
+
+            <div class="mt-4 rounded-xl bg-slate-50 p-3 border border-slate-200 text-sm text-slate-700">
+              <p class="font-semibold">Quick tip</p>
+              <p class="mt-1">Translate single sentences (not whole paragraphs) for the best accuracy.</p>
+            </div>
+          </div>
+
+          <!-- Learning -->
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">🎓</span> Learning & Practice
+            </h3>
+            <ul class="mt-3 space-y-2 text-sm">
+              <li>
+                <a class="link" href="https://www.khanacademy.org/" target="_blank" rel="noopener noreferrer">📘 Khan Academy</a>
+                <p class="text-xs text-slate-600 mt-1">Free lessons + practice for many subjects.</p>
+              </li>
+              <li>
+                <a class="link" href="https://ell.brainpop.com/" target="_blank" rel="noopener noreferrer">🧩 BrainPOP ELL</a>
+                <p class="text-xs text-slate-600 mt-1">Videos + vocabulary + listening practice.</p>
+              </li>
+              <li>
+                <a class="link" href="https://www.englishmedialab.com/" target="_blank" rel="noopener noreferrer">🎧 English Media Lab</a>
+                <p class="text-xs text-slate-600 mt-1">Listening, vocabulary, and grammar practice.</p>
+              </li>
+              <li>
+                <a class="link" href="http://a4esl.org/" target="_blank" rel="noopener noreferrer">📝 a4esl.org</a>
+                <p class="text-xs text-slate-600 mt-1">Activities for grammar, vocabulary, and reading.</p>
+              </li>
+              <li>
+                <a class="link" href="https://www.eslcafe.com/resources/idioms/" target="_blank" rel="noopener noreferrer">💡 ESL Cafe Idioms</a>
+                <p class="text-xs text-slate-600 mt-1">Idioms (phrases) you will see in real conversations.</p>
+              </li>
+              <li>
+                <a class="link" href="https://www.manythings.org/" target="_blank" rel="noopener noreferrer">🗣️ ManyThings.org</a>
+                <p class="text-xs text-slate-600 mt-1">Listening + pronunciation + sentence practice.</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Writing -->
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">✍️</span> Writing & Grammar
+            </h3>
+            <ul class="mt-3 space-y-2 text-sm">
+              <li>
+                <a class="link" href="https://www.grammarly.com/" target="_blank" rel="noopener noreferrer">✅ Grammarly (grammar help)</a>
+                <p class="text-xs text-slate-600 mt-1">Checks clarity + grammar (always double-check suggestions).</p>
+              </li>
+              <li>
+                <a class="link" href="https://www.dictionary.com/" target="_blank" rel="noopener noreferrer">📖 Dictionary.com</a>
+                <p class="text-xs text-slate-600 mt-1">Definitions + examples + pronunciation.</p>
+              </li>
+            </ul>
+
+            <div class="mt-4 rounded-xl bg-slate-50 p-3 border border-slate-200 text-sm text-slate-700">
+              <p class="font-semibold">Power move</p>
+              <p class="mt-1">After you look up a word, write your own sentence with it.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- “Fill in the gaps” extras (safe + general) -->
+        <div class="mt-4 rounded-2xl border border-slate-200 bg-white p-5">
+          <h3 class="text-base font-semibold flex items-center gap-2">
+            <span aria-hidden="true">🧠</span> Helpful Habits (Quick Wins)
+          </h3>
+          <div class="mt-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+            <div class="rounded-xl bg-slate-50 p-4 border border-slate-200">
+              <p class="font-semibold">📒 Vocabulary Routine</p>
+              <p class="mt-1 text-slate-700">Write the word • meaning • picture • sentence • translate (optional).</p>
+            </div>
+            <div class="rounded-xl bg-slate-50 p-4 border border-slate-200">
+              <p class="font-semibold">🗣️ Speak Every Day</p>
+              <p class="mt-1 text-slate-700">Practice 30 seconds: “Today I learned…” + 1 detail + 1 example.</p>
+            </div>
+            <div class="rounded-xl bg-slate-50 p-4 border border-slate-200">
+              <p class="font-semibold">✅ Turn-In Checklist</p>
+              <p class="mt-1 text-slate-700">Name • date • title • complete sentences • reread once.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAMILY COMMUNICATION HUB -->
+      <section id="family" class="section-card">
+        <div class="section-header">
+          <div class="section-icon" aria-hidden="true">🏠</div>
+          <div>
+            <h2 class="section-title">Family Communication Hub</h2>
+            <p class="section-subtitle">How we stay connected (and how to ask for help).</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">💌</span> Best Ways to Reach Me
+            </h3>
+
+            <div class="mt-3 space-y-3 text-sm text-slate-700">
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">Email (preferred)</p>
+                <p class="mt-1">Click the email button in the Welcome section to copy it quickly.</p>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 bg-white p-4">
+                <p class="font-semibold">When you email, include:</p>
+                <ul class="mt-2 list-disc pl-5 space-y-1">
+                  <li>Student name + grade</li>
+                  <li>Teacher name: Mrs. Ream</li>
+                  <li>What you need (question, help, meeting request)</li>
+                  <li>Your preferred language (optional)</li>
+                </ul>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">Need translation support?</p>
+                <p class="mt-1">
+                  Use
+                  <a class="link" href="https://www.deepl.com/" target="_blank" rel="noopener noreferrer">DeepL</a>
+                  or
+                  <a class="link" href="https://translate.google.com/" target="_blank" rel="noopener noreferrer">Google Translate</a>
+                  to help write your message—then send it. I’m happy to work with you.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-200 bg-white p-5">
+            <h3 class="text-base font-semibold flex items-center gap-2">
+              <span aria-hidden="true">🧭</span> What Families Can Do at Home
+            </h3>
+
+            <div class="mt-3 space-y-3 text-sm text-slate-700">
+              <div class="rounded-xl border border-slate-200 bg-white p-4">
+                <p class="font-semibold">📅 Check in weekly</p>
+                <p class="mt-1">Ask: “What are you reading?” “What are you writing?” “What assignment is due next?”</p>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">🗣️ Encourage speaking</p>
+                <p class="mt-1">Even 5 minutes of daily conversation builds confidence and fluency.</p>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 bg-white p-4">
+                <p class="font-semibold">📖 Read anything (seriously!)</p>
+                <p class="mt-1">Articles, sports news, comics, short stories—reading time = language growth.</p>
+              </div>
+
+              <div class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                <p class="font-semibold">🌐 Learn more about language development</p>
+                <p class="mt-1">
+                  <a class="link" href="https://wida.wisc.edu/" target="_blank" rel="noopener noreferrer">wida.wisc.edu</a>
+                  (Standards + family resources)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional FAQ accordion -->
+        <div class="mt-4 rounded-2xl border border-slate-200 bg-white p-5">
+          <h3 class="text-base font-semibold flex items-center gap-2">
+            <span aria-hidden="true">❓</span> Quick FAQ
+          </h3>
+
+          <div class="mt-3 space-y-2">
+            <button class="faq-btn" type="button" aria-expanded="false">
+              <span>🧑‍🏫 What if my student is nervous to speak English?</span>
+              <span class="faq-icon" aria-hidden="true">＋</span>
+            </button>
+            <div class="faq-panel hidden">
+              <p class="text-sm text-slate-700 leading-relaxed">
+                That’s normal! We use partner practice, sentence frames, visuals, and low-pressure routines to build confidence over time.
+              </p>
+            </div>
+
+            <button class="faq-btn" type="button" aria-expanded="false">
+              <span>📝 How can my student improve writing?</span>
+              <span class="faq-icon" aria-hidden="true">＋</span>
+            </button>
+            <div class="faq-panel hidden">
+              <p class="text-sm text-slate-700 leading-relaxed">
+                Write a little every week. Use a clear structure (topic sentence → evidence/details → explanation). Tools like Grammarly can help check basics.
+              </p>
+            </div>
+
+            <button class="faq-btn" type="button" aria-expanded="false">
+              <span>📚 What if my student reads slowly?</span>
+              <span class="faq-icon" aria-hidden="true">＋</span>
+            </button>
+            <div class="faq-panel hidden">
+              <p class="text-sm text-slate-700 leading-relaxed">
+                Reading speed improves with consistency. Short daily reading is better than long “once in a while.” Re-reading a text is also powerful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="pt-2">
+        <div class="rounded-3xl border border-white/60 bg-white/70 p-6 shadow-soft backdrop-blur">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+            <p class="text-sm text-slate-700">
+              <span class="font-semibold">Metea Valley High School • English Learners</span>
+              <span class="text-slate-500"> — SY2026</span>
+            </p>
+            <p class="text-xs text-slate-500">
+              Made with care for students & families • Minimalist + accessible design
+            </p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Styles (via Tailwind utilities) -->
+  <style>
+    /* “Chip” utility without extra CSS frameworks */
+  </style>
+
+  <!-- Minimal JS -->
+  <script>
+    // Copy email + toast
+    function copyToClipboard(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(showToast).catch(() => fallbackCopy(text));
+      } else {
+        fallbackCopy(text);
+      }
+    }
+    function fallbackCopy(text) {
+      const input = document.createElement("textarea");
+      input.value = text;
+      input.setAttribute("readonly", "");
+      input.style.position = "absolute";
+      input.style.left = "-9999px";
+      document.body.appendChild(input);
+      input.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(input);
+      showToast();
+    }
+    function showToast() {
+      const t = document.getElementById("toast");
+      if (!t) return;
+      t.classList.remove("hidden");
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => t.classList.add("hidden"), 2200);
+    }
+
+    // Tabs for schedule
+    const tabButtons = Array.from(document.querySelectorAll(".tab-btn"));
+    const tabRegular = document.getElementById("tab-regular");
+    const tabWednesday = document.getElementById("tab-wednesday");
+
+    function setTab(which) {
+      const isRegular = which === "regular";
+      tabRegular.classList.toggle("hidden", !isRegular);
+      tabWednesday.classList.toggle("hidden", isRegular);
+
+      tabButtons.forEach(btn => {
+        const active = btn.dataset.tab === which;
+        btn.classList.toggle("bg-slate-900", active);
+        btn.classList.toggle("text-white", active);
+        btn.classList.toggle("bg-transparent", !active);
+        btn.classList.toggle("text-slate-700", !active);
+      });
+    }
+    tabButtons.forEach(btn => btn.addEventListener("click", () => setTab(btn.dataset.tab)));
+    setTab("regular");
+
+    // FAQ accordion
+    const faqButtons = Array.from(document.querySelectorAll(".faq-btn"));
+    faqButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const panel = btn.nextElementSibling;
+        const icon = btn.querySelector(".faq-icon");
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        panel.classList.toggle("hidden");
+        if (icon) icon.textContent = expanded ? "＋" : "－";
+      });
+    });
+  </script>
+
+  <!-- Tailwind component classes via <style> alternatives: done using classes below -->
+  <script>
+    // Add utility classes without repeating long strings in HTML (optional).
+    // (Intentionally minimal and non-essential.)
+  </script>
+
+  <!-- Tiny utility via <style>-less approach: define repeated patterns using class lists in HTML -->
+  <style>
+    .chip {
+      @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-700 shadow-soft hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-300;
+    }
+    .section-card {
+      @apply rounded-3xl border border-white/60 bg-white/70 p-6 shadow-soft backdrop-blur;
+    }
+    .section-header {
+      @apply flex items-start gap-3 mb-5;
+    }
+    .section-icon {
+      @apply grid place-items-center h-11 w-11 rounded-2xl bg-slate-900/5 text-xl;
+    }
+    .section-title {
+      @apply text-xl md:text-2xl font-semibold tracking-tight;
+    }
+    .section-subtitle {
+      @apply text-sm text-slate-600 mt-1;
+    }
+    .badge {
+      @apply inline-flex items-center gap-2 rounded-full bg-slate-900/5 px-3 py-1 text-xs font-semibold text-slate-700;
+    }
+    .link {
+      @apply font-semibold text-slate-900 underline decoration-slate-400/60 underline-offset-4 hover:decoration-slate-900;
+    }
+    .course-card {
+      @apply rounded-2xl border border-slate-200 bg-white p-5;
+    }
+    .course-title {
+      @apply text-base font-semibold;
+    }
+    .course-desc {
+      @apply mt-2 text-sm text-slate-700 leading-relaxed;
+    }
+    .pill {
+      @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700;
+    }
+    .tab-btn {
+      @apply px-3 py-2 text-xs sm:text-sm font-semibold rounded-2xl transition-colors focus:outline-none focus:ring-2 focus:ring-slate-300;
+    }
+    .faq-btn {
+      @apply w-full flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-left text-sm font-semibold text-slate-800 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-300;
+    }
+    .faq-panel {
+      @apply rounded-2xl border border-slate-200 bg-white px-4 py-3;
+    }
+  </style>
+</body>
+</html>
